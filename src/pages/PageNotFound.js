@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 import { Button } from "../components/Button";
 
 export const PageNotFound = () => {
-  useEffect(()=>{
-    document.title=`page not found / cinemate`
-  })
+  useEffect(() => {
+    document.title = `page not found / cinemate`;
+  });
   return (
     <main className="flex items-center justify-center min-h-screen">
       <section className="flex flex-col justify-center px-4 sm:px-6 lg:px-8">
@@ -15,7 +15,11 @@ export const PageNotFound = () => {
             404, Page Not Found!
           </p>
           <div className="max-w-lg">
-            <img className="rounded" src={pageNotFoundimage} alt="error image" />
+            <img
+              className="rounded"
+              src={pageNotFoundimage}
+              alt="error image"
+            />
           </div>
         </div>
         <div className="flex justify-center my-4">

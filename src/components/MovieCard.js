@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import backUpImage from "../assets/backup.avif";
+
 export const MovieCard = ({ movie }) => {
   const { id, original_title, overview, poster_path } = movie;
   const [isExpanded, setIsExpanded] = useState(false);
